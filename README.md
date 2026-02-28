@@ -44,20 +44,23 @@ Production-grade ML system for predicting significant wave heights (Hsig) from o
 
 ```
 ocean-wave-prediction/
+├── dags/
+│   └── retrain_pipeline.py        # Airflow DAG for scheduled retraining
 ├── data/
-│   └── Hs.csv                    # Ocean buoy dataset (68k+ records)
+│   └── Hs.csv                     # Ocean dataset (68k+ records)
+├── models/
+│   └── lgbm_best.pkl              # Production model (LightGBM pipeline)
 ├── notebooks/
+│   ├── mlruns/                    # MLflow run artifacts and metrics
+│   ├── mlflow.db                  # MLflow experiment tracking database
 │   └── phase_1_experiment.ipynb   # EDA, feature engineering, model selection
 ├── src/
 │   ├── app.py                     # FastAPI prediction service
 │   └── schemas.py                 # Pydantic request/response models
-├── dags/
-│   └── retrain_pipeline.py        # Airflow DAG for scheduled retraining
-├── models/
-│   └── lgbm_best.pkl              # Production model (LightGBM pipeline)
 ├── Dockerfile
-├── requirements.txt
-└── README.md
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
 ## Model Summary
