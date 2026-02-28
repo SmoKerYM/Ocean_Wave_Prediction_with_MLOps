@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts (large binary files, not suitable for git)
+models/*.pkl
+models/artifacts/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Airflow (if running locally)
+airflow.cfg
+airflow.db
+logs/
