@@ -30,3 +30,6 @@ Thumbs.db
 airflow.cfg
 airflow.db
 logs/
+
+# Docs
+docs/
