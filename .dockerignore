@@ -1,0 +1,10 @@
+.git
+notebooks
+dags
+data
+docs
+mlruns
+__pycache__
+*.ipynb
+*.md
+.dockerignore
