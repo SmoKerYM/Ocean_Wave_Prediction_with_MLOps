@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/mingweiyan/Documents/Repositories/Ocean_Wave_Prediction_with_MLOps/notebooks/../mlruns/894712696629448238/41a1bbd303184467af5d2a492908569d/artifacts
+end_time: 1772291908118
+entry_point_name: ''
+experiment_id: '894712696629448238'
+lifecycle_stage: active
+run_id: 41a1bbd303184467af5d2a492908569d
+run_name: Baseline_Linear_Regression_CV
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772291907873
+status: 3
+tags: []
+user_id: mingweiyan

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/mingweiyan/Documents/Repositories/Ocean_Wave_Prediction_with_MLOps/notebooks/../mlruns/894712696629448238/4cc430bb6c6340f6bc5306bd795602d7/artifacts
+end_time: 1772292218577
+entry_point_name: ''
+experiment_id: '894712696629448238'
+lifecycle_stage: active
+run_id: 4cc430bb6c6340f6bc5306bd795602d7
+run_name: Random_Forest_RandomizedSearchCV
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772291923606
+status: 3
+tags: []
+user_id: mingweiyan
